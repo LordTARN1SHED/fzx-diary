@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65554D542AF20F0700496624 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65554D532AF20F0700496624 /* ViewController3.swift */; };
+		6590B6522AEFD60C007B6E27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6590B6512AEFD60C007B6E27 /* AppDelegate.swift */; };
+		6590B6542AEFD60C007B6E27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6590B6532AEFD60C007B6E27 /* SceneDelegate.swift */; };
+		6590B6562AEFD60C007B6E27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6590B6552AEFD60C007B6E27 /* ViewController.swift */; };
+		6590B6592AEFD60C007B6E27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6590B6572AEFD60C007B6E27 /* Main.storyboard */; };
+		6590B65B2AEFD60E007B6E27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6590B65A2AEFD60E007B6E27 /* Assets.xcassets */; };
+		6590B65E2AEFD60E007B6E27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6590B65C2AEFD60E007B6E27 /* LaunchScreen.storyboard */; };
+		6590B6692AEFD60F007B6E27 /* fzx___ios_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6590B6682AEFD60F007B6E27 /* fzx___ios_Tests.swift */; };
+		6590B6732AEFD60F007B6E27 /* fzx___ios_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6590B6722AEFD60F007B6E27 /* fzx___ios_UITests.swift */; };
+		6590B6752AEFD60F007B6E27 /* fzx___ios_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6590B6742AEFD60F007B6E27 /* fzx___ios_UITestsLaunchTests.swift */; };
+		65AF332A2AF3DA01008AE888 /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65AF33252AF3DA01008AE888 /* song2.mp3 */; };
+		65AF332B2AF3DA01008AE888 /* song5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65AF33262AF3DA01008AE888 /* song5.mp3 */; };
+		65AF332C2AF3DA01008AE888 /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65AF33272AF3DA01008AE888 /* song1.mp3 */; };
+		65AF332D2AF3DA01008AE888 /* song4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65AF33282AF3DA01008AE888 /* song4.mp3 */; };
+		65AF332E2AF3DA01008AE888 /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65AF33292AF3DA01008AE888 /* song3.mp3 */; };
+		65C098B52AF14A5D00663974 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C098B42AF14A5D00663974 /* ViewController2.swift */; };
+		65D166E02AF4ADAD0076640E /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65D166DB2AF4ADAD0076640E /* 2.jpg */; };
+		65D166E12AF4ADAD0076640E /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65D166DC2AF4ADAD0076640E /* 3.jpg */; };
+		65D166E22AF4ADAD0076640E /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65D166DD2AF4ADAD0076640E /* 4.jpg */; };
+		65D166E32AF4ADAD0076640E /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65D166DE2AF4ADAD0076640E /* 5.jpg */; };
+		65D166E42AF4ADAD0076640E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65D166DF2AF4ADAD0076640E /* 1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6590B6652AEFD60F007B6E27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6590B6462AEFD60C007B6E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6590B64D2AEFD60C007B6E27;
+			remoteInfo = "fzx的日记ios版";
+		};
+		6590B66F2AEFD60F007B6E27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6590B6462AEFD60C007B6E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6590B64D2AEFD60C007B6E27;
+			remoteInfo = "fzx的日记ios版";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65554D532AF20F0700496624 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		6590B64E2AEFD60C007B6E27 /* fzx的日记ios版.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fzx的日记ios版.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6590B6512AEFD60C007B6E27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6590B6532AEFD60C007B6E27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6590B6552AEFD60C007B6E27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6590B6582AEFD60C007B6E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6590B65A2AEFD60E007B6E27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6590B65D2AEFD60E007B6E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6590B65F2AEFD60E007B6E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6590B6642AEFD60F007B6E27 /* fzx的日记ios版Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fzx的日记ios版Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6590B6682AEFD60F007B6E27 /* fzx___ios_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "fzx___ios_Tests.swift"; sourceTree = "<group>"; };
+		6590B66E2AEFD60F007B6E27 /* fzx的日记ios版UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fzx的日记ios版UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6590B6722AEFD60F007B6E27 /* fzx___ios_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "fzx___ios_UITests.swift"; sourceTree = "<group>"; };
+		6590B6742AEFD60F007B6E27 /* fzx___ios_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "fzx___ios_UITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		65AF33252AF3DA01008AE888 /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = SOURCE_ROOT; };
+		65AF33262AF3DA01008AE888 /* song5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song5.mp3; sourceTree = SOURCE_ROOT; };
+		65AF33272AF3DA01008AE888 /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = SOURCE_ROOT; };
+		65AF33282AF3DA01008AE888 /* song4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song4.mp3; sourceTree = SOURCE_ROOT; };
+		65AF33292AF3DA01008AE888 /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song3.mp3; sourceTree = SOURCE_ROOT; };
+		65C098B42AF14A5D00663974 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		65D166DB2AF4ADAD0076640E /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = SOURCE_ROOT; };
+		65D166DC2AF4ADAD0076640E /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = SOURCE_ROOT; };
+		65D166DD2AF4ADAD0076640E /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = SOURCE_ROOT; };
+		65D166DE2AF4ADAD0076640E /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = SOURCE_ROOT; };
+		65D166DF2AF4ADAD0076640E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6590B64B2AEFD60C007B6E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6590B6612AEFD60F007B6E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6590B66B2AEFD60F007B6E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6590B6452AEFD60C007B6E27 = {
+			isa = PBXGroup;
+			children = (
+				6590B6502AEFD60C007B6E27 /* fzx的日记ios版 */,
+				6590B6672AEFD60F007B6E27 /* fzx的日记ios版Tests */,
+				6590B6712AEFD60F007B6E27 /* fzx的日记ios版UITests */,
+				6590B64F2AEFD60C007B6E27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6590B64F2AEFD60C007B6E27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6590B64E2AEFD60C007B6E27 /* fzx的日记ios版.app */,
+				6590B6642AEFD60F007B6E27 /* fzx的日记ios版Tests.xctest */,
+				6590B66E2AEFD60F007B6E27 /* fzx的日记ios版UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6590B6502AEFD60C007B6E27 /* fzx的日记ios版 */ = {
+			isa = PBXGroup;
+			children = (
+				6590B6512AEFD60C007B6E27 /* AppDelegate.swift */,
+				6590B6532AEFD60C007B6E27 /* SceneDelegate.swift */,
+				6590B6552AEFD60C007B6E27 /* ViewController.swift */,
+				6590B6572AEFD60C007B6E27 /* Main.storyboard */,
+				65554D532AF20F0700496624 /* ViewController3.swift */,
+				6590B65A2AEFD60E007B6E27 /* Assets.xcassets */,
+				65C098B42AF14A5D00663974 /* ViewController2.swift */,
+				6590B65C2AEFD60E007B6E27 /* LaunchScreen.storyboard */,
+				65AF33272AF3DA01008AE888 /* song1.mp3 */,
+				65AF33252AF3DA01008AE888 /* song2.mp3 */,
+				65AF33292AF3DA01008AE888 /* song3.mp3 */,
+				65AF33282AF3DA01008AE888 /* song4.mp3 */,
+				65AF33262AF3DA01008AE888 /* song5.mp3 */,
+				65D166DF2AF4ADAD0076640E /* 1.jpg */,
+				65D166DB2AF4ADAD0076640E /* 2.jpg */,
+				65D166DC2AF4ADAD0076640E /* 3.jpg */,
+				65D166DD2AF4ADAD0076640E /* 4.jpg */,
+				65D166DE2AF4ADAD0076640E /* 5.jpg */,
+				6590B65F2AEFD60E007B6E27 /* Info.plist */,
+			);
+			path = "fzx的日记ios版";
+			sourceTree = "<group>";
+		};
+		6590B6672AEFD60F007B6E27 /* fzx的日记ios版Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6590B6682AEFD60F007B6E27 /* fzx___ios_Tests.swift */,
+			);
+			path = "fzx的日记ios版Tests";
+			sourceTree = "<group>";
+		};
+		6590B6712AEFD60F007B6E27 /* fzx的日记ios版UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6590B6722AEFD60F007B6E27 /* fzx___ios_UITests.swift */,
+				6590B6742AEFD60F007B6E27 /* fzx___ios_UITestsLaunchTests.swift */,
+			);
+			path = "fzx的日记ios版UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6590B64D2AEFD60C007B6E27 /* fzx的日记ios版 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6590B6782AEFD60F007B6E27 /* Build configuration list for PBXNativeTarget "fzx的日记ios版" */;
+			buildPhases = (
+				6590B64A2AEFD60C007B6E27 /* Sources */,
+				6590B64B2AEFD60C007B6E27 /* Frameworks */,
+				6590B64C2AEFD60C007B6E27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fzx的日记ios版";
+			productName = "fzx的日记ios版";
+			productReference = 6590B64E2AEFD60C007B6E27 /* fzx的日记ios版.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6590B6632AEFD60F007B6E27 /* fzx的日记ios版Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6590B67B2AEFD60F007B6E27 /* Build configuration list for PBXNativeTarget "fzx的日记ios版Tests" */;
+			buildPhases = (
+				6590B6602AEFD60F007B6E27 /* Sources */,
+				6590B6612AEFD60F007B6E27 /* Frameworks */,
+				6590B6622AEFD60F007B6E27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6590B6662AEFD60F007B6E27 /* PBXTargetDependency */,
+			);
+			name = "fzx的日记ios版Tests";
+			productName = "fzx的日记ios版Tests";
+			productReference = 6590B6642AEFD60F007B6E27 /* fzx的日记ios版Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6590B66D2AEFD60F007B6E27 /* fzx的日记ios版UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6590B67E2AEFD60F007B6E27 /* Build configuration list for PBXNativeTarget "fzx的日记ios版UITests" */;
+			buildPhases = (
+				6590B66A2AEFD60F007B6E27 /* Sources */,
+				6590B66B2AEFD60F007B6E27 /* Frameworks */,
+				6590B66C2AEFD60F007B6E27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6590B6702AEFD60F007B6E27 /* PBXTargetDependency */,
+			);
+			name = "fzx的日记ios版UITests";
+			productName = "fzx的日记ios版UITests";
+			productReference = 6590B66E2AEFD60F007B6E27 /* fzx的日记ios版UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6590B6462AEFD60C007B6E27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6590B64D2AEFD60C007B6E27 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					6590B6632AEFD60F007B6E27 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 6590B64D2AEFD60C007B6E27;
+					};
+					6590B66D2AEFD60F007B6E27 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 6590B64D2AEFD60C007B6E27;
+					};
+				};
+			};
+			buildConfigurationList = 6590B6492AEFD60C007B6E27 /* Build configuration list for PBXProject "fzx的日记ios版" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6590B6452AEFD60C007B6E27;
+			productRefGroup = 6590B64F2AEFD60C007B6E27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6590B64D2AEFD60C007B6E27 /* fzx的日记ios版 */,
+				6590B6632AEFD60F007B6E27 /* fzx的日记ios版Tests */,
+				6590B66D2AEFD60F007B6E27 /* fzx的日记ios版UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6590B64C2AEFD60C007B6E27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D166E22AF4ADAD0076640E /* 4.jpg in Resources */,
+				65D166E42AF4ADAD0076640E /* 1.jpg in Resources */,
+				65AF332A2AF3DA01008AE888 /* song2.mp3 in Resources */,
+				65AF332E2AF3DA01008AE888 /* song3.mp3 in Resources */,
+				65AF332C2AF3DA01008AE888 /* song1.mp3 in Resources */,
+				65D166E02AF4ADAD0076640E /* 2.jpg in Resources */,
+				6590B65E2AEFD60E007B6E27 /* LaunchScreen.storyboard in Resources */,
+				65D166E12AF4ADAD0076640E /* 3.jpg in Resources */,
+				6590B65B2AEFD60E007B6E27 /* Assets.xcassets in Resources */,
+				65AF332B2AF3DA01008AE888 /* song5.mp3 in Resources */,
+				65D166E32AF4ADAD0076640E /* 5.jpg in Resources */,
+				65AF332D2AF3DA01008AE888 /* song4.mp3 in Resources */,
+				6590B6592AEFD60C007B6E27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6590B6622AEFD60F007B6E27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6590B66C2AEFD60F007B6E27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6590B64A2AEFD60C007B6E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65554D542AF20F0700496624 /* ViewController3.swift in Sources */,
+				6590B6562AEFD60C007B6E27 /* ViewController.swift in Sources */,
+				65C098B52AF14A5D00663974 /* ViewController2.swift in Sources */,
+				6590B6522AEFD60C007B6E27 /* AppDelegate.swift in Sources */,
+				6590B6542AEFD60C007B6E27 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6590B6602AEFD60F007B6E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6590B6692AEFD60F007B6E27 /* fzx___ios_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6590B66A2AEFD60F007B6E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6590B6732AEFD60F007B6E27 /* fzx___ios_UITests.swift in Sources */,
+				6590B6752AEFD60F007B6E27 /* fzx___ios_UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6590B6662AEFD60F007B6E27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6590B64D2AEFD60C007B6E27 /* fzx的日记ios版 */;
+			targetProxy = 6590B6652AEFD60F007B6E27 /* PBXContainerItemProxy */;
+		};
+		6590B6702AEFD60F007B6E27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6590B64D2AEFD60C007B6E27 /* fzx的日记ios版 */;
+			targetProxy = 6590B66F2AEFD60F007B6E27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6590B6572AEFD60C007B6E27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6590B6582AEFD60C007B6E27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6590B65C2AEFD60E007B6E27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6590B65D2AEFD60E007B6E27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6590B6762AEFD60F007B6E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6590B6772AEFD60F007B6E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6590B6792AEFD60F007B6E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 696LC6QD6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "fzx的日记ios版/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fzx.fzx---ios-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6590B67A2AEFD60F007B6E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 696LC6QD6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "fzx的日记ios版/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fzx.fzx---ios-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6590B67C2AEFD60F007B6E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 696LC6QD6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fzx.fzx---ios-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fzx的日记ios版.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fzx的日记ios版";
+			};
+			name = Debug;
+		};
+		6590B67D2AEFD60F007B6E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 696LC6QD6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fzx.fzx---ios-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fzx的日记ios版.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fzx的日记ios版";
+			};
+			name = Release;
+		};
+		6590B67F2AEFD60F007B6E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 696LC6QD6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fzx.fzx---ios-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "fzx的日记ios版";
+			};
+			name = Debug;
+		};
+		6590B6802AEFD60F007B6E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 696LC6QD6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fzx.fzx---ios-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "fzx的日记ios版";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6590B6492AEFD60C007B6E27 /* Build configuration list for PBXProject "fzx的日记ios版" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6590B6762AEFD60F007B6E27 /* Debug */,
+				6590B6772AEFD60F007B6E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6590B6782AEFD60F007B6E27 /* Build configuration list for PBXNativeTarget "fzx的日记ios版" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6590B6792AEFD60F007B6E27 /* Debug */,
+				6590B67A2AEFD60F007B6E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6590B67B2AEFD60F007B6E27 /* Build configuration list for PBXNativeTarget "fzx的日记ios版Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6590B67C2AEFD60F007B6E27 /* Debug */,
+				6590B67D2AEFD60F007B6E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6590B67E2AEFD60F007B6E27 /* Build configuration list for PBXNativeTarget "fzx的日记ios版UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6590B67F2AEFD60F007B6E27 /* Debug */,
+				6590B6802AEFD60F007B6E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6590B6462AEFD60C007B6E27 /* Project object */;
+}
